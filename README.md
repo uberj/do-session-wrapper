@@ -1,6 +1,8 @@
 Script to startup Digital Ocean droplet on demand to save on idle costs.
 
 
+Setup:
+---
 ```
 brew install doctl
 doctl auth init --context auto-startup-shutdown-command
@@ -11,6 +13,7 @@ vim .config # Set vars
 ```
 
 Usage:
+---
 ```
 ./remotesession.sh
 > Starging droplet
