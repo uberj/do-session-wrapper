@@ -1,0 +1,2 @@
+DROPLET_ID=<droplet-id>
+DROPLET_IP=<ip-of the droplet> # TODO, get this from listing command
